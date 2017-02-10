@@ -1,6 +1,6 @@
 # wc-server
 
-A super fast web server for serving front-end resources. 
+A super fast web server for serving front-end resources.
 
 Built with [koa](https://www.npmjs.com/package/koa).
 
