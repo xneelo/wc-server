@@ -1,0 +1,40 @@
+{
+  "name": "wc-server",
+  "version": "1.0.0",
+  "description": "A super fast web server for serving front-end resources.",
+  "author": "UX <ux@hetzner.co.za>",
+  "license": "MIT",
+  "keywords": [
+    "server",
+    "bower",
+    "bower_components",
+    "static",
+    "https",
+    "http"
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "main": "./lib/app.js",
+  "bin": {
+    "wc-server": "./bin/server.js"
+  },
+  "scripts": {
+    "start": "wc-server",
+    "test": "mocha --ui tdd ./test/*.js"
+  },
+  "dependencies": {
+    "command-line-args": "^3.0.1",
+    "command-line-usage": "^3.0.3",
+    "find-port": "^2.0.1",
+    "koa": "^1.2.4",
+    "koa-send": "^3.2.0",
+    "my-local-ip": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.1",
+    "req-then": "^0.5.0",
+    "supertest": "^2.0.0"
+  }
+}
