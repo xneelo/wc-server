@@ -8,4 +8,3 @@ before_script:
 - npm install
 script:
 - npm test
-- npm run cover
