@@ -40,6 +40,7 @@ $ npm install hetznerZA/wc-server --save-dev
   -n, --no-cache      Set no-cache headers.
   -s, --https         Enable HTTPS.
   -i, --history       History API support. Fallback to root.
+  -r, --root string   Root directory to host.
   -v, --version       Display version info.
   -h, --help          Display this usage guide.
 </code></pre>

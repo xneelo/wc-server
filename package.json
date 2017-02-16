@@ -1,6 +1,6 @@
 {
   "name": "wc-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A super fast web server for serving front-end resources.",
   "author": "UX <ux@hetzner.co.za>",
   "license": "MIT",

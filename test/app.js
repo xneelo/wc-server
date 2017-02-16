@@ -1,4 +1,4 @@
-'user strict';
+'use strict';
 
 const makeApp = require('../lib/app.js');
 const assert = require('chai').assert;
